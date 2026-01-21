@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  padding: 0;
-  background-color: #000; /* solid black background, images removed */
-  color: white;
-  font-size: 14px;
-  font-family: sans-serif;
-  overflow: auto;
+  height: 100vh;
+  background: linear-gradient(to bottom, #ffe6f0, #fff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 a {
   color: white;
@@ -27,6 +27,7 @@ a {
   left: 188px;
   top: 80px;
   position: absolute;
+  color: red;
 }
 #code {
   display: none;
@@ -70,6 +71,7 @@ a {
 }
 .say {
   margin-left: 5px;
+  color: red;
 }
 .space {
   margin-right: 150px;
