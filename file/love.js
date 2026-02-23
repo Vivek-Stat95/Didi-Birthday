@@ -168,8 +168,8 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("Click here:) ", 30, -5);
-            ctx.fillText("Shubra Ji !", 28, 10);
+            ctx.fillText("Tap here:) ", 30, -5);
+            ctx.fillText("Hello Jiji !", 28, 10);
             ctx.restore();
         },
         clear: function() {
@@ -701,8 +701,8 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("Shubra Ji:) ", 30, -5);
-            ctx.fillText("Click here!", 28, 10);
+            ctx.fillText("Hello Jiji:) ", 30, -5);
+            ctx.fillText("Tap here!", 28, 10);
             ctx.restore();
         },
         clear: function() {
@@ -1062,5 +1062,6 @@
     window.bezier = bezier;
     window.Point = Point;
     window.Tree = Tree;
+
 
 })(window);
